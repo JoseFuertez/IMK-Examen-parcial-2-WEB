@@ -51,9 +51,9 @@ font-family:Arial, Helvetica, sans-serif
 }
 
 .button-59:active {
-  border-color: #06f;
-  color: #06f;
-  fill: #06f;
+  border-color: rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
+  fill: rgb(255, 0, 0);
 }
 
 @media (min-width: 768px) {
@@ -89,3 +89,24 @@ font-family:Arial, Helvetica, sans-serif
     color: rgb(230, 21, 14);
     text-decoration: underline;
  }
+
+ a:link {
+    background-color: yellow;
+  }
+  
+  a:visited {
+    background-color: cyan;
+  }
+  
+  a:hover {
+    background-color: lightgreen;
+  }
+  
+  a:active {
+    background-color: hotpink;
+  } 
+
+  .disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
