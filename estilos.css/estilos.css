@@ -122,11 +122,14 @@ a:link {
  p {
     text-align: justify; 
     margin:15px; 
-    border-style:solid; 
-    border-color:grey;
 }
 
-img {
+.img1 {
+    margin:10px; 
+    float:right;
+}
+
+.img2 {
     margin:10px; 
     float:left;
 }
