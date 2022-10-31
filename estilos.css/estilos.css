@@ -119,3 +119,14 @@ a:link {
  /* Diseño texto pagina ¿Quienes somos? */
 
  /* Diseño texto pagina Contacto */
+ p {
+    text-align: justify; 
+    margin:15px; 
+    border-style:solid; 
+    border-color:grey;
+}
+
+img {
+    margin:10px; 
+    float:left;
+}
