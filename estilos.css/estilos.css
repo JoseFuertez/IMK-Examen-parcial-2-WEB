@@ -37,3 +37,30 @@ background-color: gold;
 form li + li {
 margin-top: 1em;
 }
+
+.subrayado-verde {
+    color: rgb(21, 230, 14);
+    text-decoration: underline;
+ }
+
+ .texto-rojo {
+    color: rgb(235, 16, 16);
+ }
+
+ .doble-subrayado {
+    text-decoration: underline overline;
+ }
+
+ .negritas-titulo {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+ }
+
+ .azul {
+    color: rgb(7, 11, 248);
+ }
+
+ .rojo-subrayado {
+    color: rgb(230, 21, 14);
+    text-decoration: underline;
+ }
