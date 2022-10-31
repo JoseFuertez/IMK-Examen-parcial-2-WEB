@@ -118,8 +118,13 @@ a:link {
 
  /* Diseño texto pagina ¿Quienes somos? */
 
+th{
+    color: red;
+}
+
  table, th, td {
     border:1px solid black;
+    background-color: yellow;
   }
 
  /* Diseño texto pagina Contacto */
