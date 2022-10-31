@@ -118,8 +118,10 @@ a:link {
 
  /* Diseño texto pagina ¿Quienes somos? */
 
+ table, th, td {
+    border:1px solid black;
+  }
 
- 
  /* Diseño texto pagina Contacto */
 p {
     text-align: justify; 
