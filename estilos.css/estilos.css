@@ -10,9 +10,13 @@ text-align: center;
 font-family:Arial, Helvetica, sans-serif
 }
 
+h2.En3{
+    color:rgb(0, 0, 0);
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif
+    }
 
-
-/* CSS */
+/* Diseño de los botones */
 .button-59 {
   align-items: center;
   background-color: #fff;
@@ -62,7 +66,29 @@ font-family:Arial, Helvetica, sans-serif
   }
 }
 
-/* desde aqui! */
+/* Remover funciones de memoria y subrayado de links */ 
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  } 
+
+  .disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+/* Diseño texto pagina inicio */
 .subrayado-verde {
     color: rgb(21, 230, 14);
     text-decoration: underline;
@@ -90,23 +116,6 @@ font-family:Arial, Helvetica, sans-serif
     text-decoration: underline;
  }
 
- a:link {
-    text-decoration: none;
-  }
-  
-  a:visited {
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: none;
-  }
-  
-  a:active {
-    text-decoration: none;
-  } 
+ /* Diseño texto pagina ¿Quienes somos? */
 
-  .disabled {
-    opacity: 0.6;
-    cursor: not-allowed;
-  }
+ /* Diseño texto pagina Contacto */
