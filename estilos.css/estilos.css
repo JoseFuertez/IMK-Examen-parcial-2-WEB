@@ -120,6 +120,7 @@ a:link {
 
 th{
     color: red;
+    font-style: italic;
 }
 
  table, th, td {
